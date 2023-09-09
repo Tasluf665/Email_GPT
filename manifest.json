@@ -1,0 +1,32 @@
+{
+  "name": "Email GPT",
+  "description": "Write email with AI",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "host_permissions": ["https://mail.google.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [],
+      "matches": ["https://mail.google.com/*"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/image/icon.png",
+      "24": "/image/icon.png",
+      "32": "/image/icon.png"
+    },
+    "default_title": "Buy me a coffee",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}

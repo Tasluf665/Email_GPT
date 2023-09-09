@@ -2,7 +2,9 @@
 
 Welcome to the documentation for the Email GPT Chrome Extension. This extension is designed to assist you in writing professional and well-crafted emails using the power of OpenAI's language model. With Email GPT, you can easily compose emails for various purposes directly within Gmail. This README provides an overview of the extension, installation instructions, usage guidelines, and more.
 
-![Email GPT Chrome Extension](https://github.com/Tasluf665/Email_GPT/blob/master/Extension_img/1.png)
+<b>Important Update (April 2023):</b> This extension is no longer operational due to the OpenAI API no longer being free. We appreciate your past support.
+
+![Email GPT Chrome Extension](https://github.com/Tasluf665/Email_GPT/blob/master/Extension_img/Chrome%20Web%20Store.png)
 
 ## Table of Contents
 
